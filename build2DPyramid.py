@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 Jay Yang
-Lab 7
+build2DPyramid.py
 Created on Thu Sep 26 18:37:33 2019
 """
 
