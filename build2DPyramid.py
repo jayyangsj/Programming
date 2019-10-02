@@ -22,8 +22,6 @@ ALGORITHM:
        4. return the string
     End of loop:
 """
-import sys
-import os
 
 # DEFINING FUNC
 def building2DPyramid(symbol, layers):
@@ -87,6 +85,7 @@ def game():
                 continue
             elif layers < 0:
                 print("(╯°□°)╯︵ ┻━┻")
+                continue
         except ValueError:
            print("That's not an integer!")
            continue
@@ -109,8 +108,5 @@ def main():
             print("Thanks for playing and Goodbye!")
             break
 
-
 if __name__ == "__main__":
     main()
-#    answer = raw_input("Do you want to restart this program ? ")
-#    if answer.lower().strip() in "y yes".split():
